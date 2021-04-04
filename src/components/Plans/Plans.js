@@ -1,7 +1,3 @@
-import useEffect from "react";
-import aos from "aos";
-
-
 import tick from "../../assets/icons/tick.svg";
 import tickDark from "../../assets/icons/tickDark.svg";
 import xMark from "../../assets/icons/xMark.svg";

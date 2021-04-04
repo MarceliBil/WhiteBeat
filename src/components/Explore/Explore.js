@@ -1,6 +1,3 @@
-import useEffect from "react";
-
-
 import phonePreview from "../../assets/images/phonePreview.svg";
 
 import "./Explore.scss";

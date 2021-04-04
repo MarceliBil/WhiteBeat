@@ -1,5 +1,3 @@
-import aos from "aos";
-
 import { React, useState } from "react";
 
 import ToggleDisplay from "react-toggle-element";

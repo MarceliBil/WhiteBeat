@@ -1,0 +1,43 @@
+.explore{
+    flex-direction: column;
+    padding: 20px;
+
+    .phonePreview{
+        width: 65%;
+        max-width: 300px;
+        margin: 30px;
+    }
+
+    .features{
+        li{
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin:10px;
+        }
+    }
+}
+
+@media(orientation: landscape){
+    .explore{
+        flex-direction: row-reverse;
+  
+        .phonePreview{
+            width: 30%;
+
+        }
+    }
+}
+
+
+@media(min-width: 900px){
+    .explore{
+        flex-direction: row-reverse;
+  
+        .features{
+            margin-right: 50px;
+            li{
+                font-size: 4rem;
+            }
+        }
+    }
+}

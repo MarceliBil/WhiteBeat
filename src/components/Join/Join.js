@@ -60,11 +60,11 @@ const Join = () => {
             <input type="email" required placeholder="email adress.." />
             <input type="password" required placeholder="password..." />
 
-            <div className="remember flex">
+            <span className="remember flex">
               <input type="checkbox" name="" id="" className="checkbox" required />
 
               <p>remember me</p>
-            </div>
+            </span>
 
             <p className="forgot">Forgot your password?</p>
 
